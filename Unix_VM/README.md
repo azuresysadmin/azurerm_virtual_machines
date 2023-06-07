@@ -7,8 +7,8 @@
 
 ## Modules
 
-| Name | Source | Version |
-|------|--------|---------|
+| Name | Source 
+|------|--------|
 | <a name="module_linuxvm"></a> [linuxvm](#module\_linuxvm) | ../modules/az_linux_virtual_machine | n/a |
 | <a name="module_network-rule-binder"></a> [network-rule-binder](#module\_network-rule-binder) | ../modules/az_nsg_association | n/a |
 | <a name="module_nic"></a> [nic](#module\_nic) | ../modules/az_network_interface | n/a |
@@ -26,6 +26,7 @@
 | <a name="output_admin_username"></a> [admin\_username](#output\_admin\_username) | The admin user name |
 | <a name="output_linux_vm_publicIP"></a> [linux\_vm\_publicIP](#output\_linux\_vm\_publicIP) | The IP address of the Virtual Machine |
 | <a name="output_linux_vm_resource_group"></a> [linux\_vm\_resource\_group](#output\_linux\_vm\_resource\_group) | The Resource Group with all of the deployments |
+---
 
 ## Resources that will be built
 This deployment will create:
