@@ -1,4 +1,31 @@
 # Unix-based virtual machine in Azure
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >3.4.0 |
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_linuxvm"></a> [linuxvm](#module\_linuxvm) | ../modules/az_linux_virtual_machine | n/a |
+| <a name="module_network-rule-binder"></a> [network-rule-binder](#module\_network-rule-binder) | ../modules/az_nsg_association | n/a |
+| <a name="module_nic"></a> [nic](#module\_nic) | ../modules/az_network_interface | n/a |
+| <a name="module_nsg"></a> [nsg](#module\_nsg) | ../modules/az_network_security_group | n/a |
+| <a name="module_pip"></a> [pip](#module\_pip) | ../modules/az_public_ip | n/a |
+| <a name="module_resource_group"></a> [resource\_group](#module\_resource\_group) | ../modules/az_resource_group | n/a |
+| <a name="module_subnet"></a> [subnet](#module\_subnet) | ../modules/az_subnet | n/a |
+| <a name="module_vm_shutdown"></a> [vm\_shutdown](#module\_vm\_shutdown) | ../modules/az_vm_auto_shutdown | n/a |
+| <a name="module_vnet"></a> [vnet](#module\_vnet) | ../modules/az_vnet | n/a |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_admin_username"></a> [admin\_username](#output\_admin\_username) | The admin user name |
+| <a name="output_linux_vm_publicIP"></a> [linux\_vm\_publicIP](#output\_linux\_vm\_publicIP) | The IP address of the Virtual Machine |
+| <a name="output_linux_vm_resource_group"></a> [linux\_vm\_resource\_group](#output\_linux\_vm\_resource\_group) | The Resource Group with all of the deployments |
 
 ## Resources that will be built
 This deployment will create:
